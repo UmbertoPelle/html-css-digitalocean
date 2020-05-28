@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .white-button{
@@ -14,18 +15,26 @@
   border-radius: 5px;
 }
 
+section{
+  padding: 20px 0;
+}
+
+
 /* header */
 /* nav */
 header nav {
   position: fixed;
   top: 0;
-  left: 10%;
+  left: 0;
   height: 60px;
+  background-color: #fff;
+  z-index: 100;
+  width: 100%;
 }
 
 header nav img{
   max-width:70%;
-  padding-top: 15px;
+  padding-top: 5px;
 }
 
 header nav li{
@@ -44,7 +53,6 @@ nav .white-button{
   background-color: blue;
   margin-top: 60px;
   color: white;
-  text-align: center;
 }
 
 #jumbotron h2{
@@ -74,7 +82,8 @@ nav .white-button{
   font-size: 30px;
 }
 
-.form-jumbo h3{
+#jumbotron .form-jumbo h3{
+  font-size: 30px;
   color: blue;
 }
 
@@ -93,5 +102,28 @@ nav .white-button{
 #jumbotron .form-jumbo #sign-up-google{
   background-color: white;
   border: solid 1px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* main */
+.grey{
+  background-color: #f3f5f9
+}
+
+/* sezione customers */
+
+.grey a{
+  font-size: 20px;
+}
+.grey i {
+  font-size: 15px;
+}
+
+section .container h3{
+  font-size: 40px;
+}
+
+section .container p{
+  font-size: 30px;
   color: rgba(0, 0, 0, 0.5);
 }
