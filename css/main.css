@@ -163,3 +163,38 @@ section .container li a span{
 .row .nesting-col p{
   font-size: 20px;
 }
+
+/* Sezione service  */
+
+.blue {
+  background-image: url("https://images.prismic.io/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg?auto=compress,format");
+  color: #fff;
+}
+
+.blue .row {
+  margin-top: 30px;
+}
+
+.riga-customers{
+  text-align: left;
+  border-bottom: solid 1px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+.riga-customers strong, .riga-customers span{
+  display: inline-block;
+}
+
+.riga-customers span{
+  color: rgba(255, 255, 255, 0.5);
+  width: 20%
+}
+
+.riga-customers strong{
+  width: 70%
+}
+
+.blue a{
+  color: #16ffff;
+}
