@@ -1,0 +1,39 @@
+/* general rules */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.white-button{
+  display: inline-block;
+  background-color: #fff;
+  color: blue;
+  border: solid 1px blue;
+  border-radius: 5px;
+}
+
+/* header */
+/* nav */
+header nav {
+  position: fixed;
+  top: 0;
+  left: 180px;
+  height: 60px;
+}
+
+header nav img{
+  max-width:70%;
+  padding-top: 15px;
+}
+
+header nav li{
+  line-height: 60px;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+nav .white-button{
+  padding: 5px;
+}
