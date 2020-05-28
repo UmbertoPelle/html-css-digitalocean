@@ -175,24 +175,32 @@ section .container li a span{
   margin-top: 30px;
 }
 
+.blue .row .col-xs-12{
+  margin-bottom: 40px;
+}
+
 .riga-customers{
-  text-align: left;
   border-bottom: solid 1px;
   margin-bottom: 15px;
   padding-bottom: 10px;
 }
 
-.riga-customers strong, .riga-customers span{
+.riga-customers strong, .riga-customers span, .riga-customers a{
   display: inline-block;
+  text-align: left;
 }
 
 .riga-customers span{
   color: rgba(255, 255, 255, 0.5);
-  width: 20%
+  width: 60%;
 }
 
 .riga-customers strong{
-  width: 70%
+  width: 20%;
+}
+
+.riga-customers a{
+  width: 17%;
 }
 
 .blue a{
