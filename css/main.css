@@ -146,7 +146,6 @@ section .container li{
 
 section .container li a{
   color: rgba(0, 0, 0, 0.5);
-
 }
 
 section .container li a span{
@@ -157,7 +156,7 @@ section .container li a span{
 }
 
 /* sezione innestata Deploy */
-.nesting-col h4, .nesting-col .img-deploy, .nesting-col p{
+.nesting-col h4, .nesting-col .img-col, .nesting-col p, .nesting-col div{
   text-align: left;
 }
 
