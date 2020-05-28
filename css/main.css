@@ -119,6 +119,8 @@ nav .white-button{
   font-size: 15px;
 }
 
+/*  sezione deploy */
+
 section .container h3{
   font-size: 40px;
 }
@@ -126,4 +128,31 @@ section .container h3{
 section .container p{
   font-size: 30px;
   color: rgba(0, 0, 0, 0.5);
+}
+
+section .container li{
+  text-align:left;
+  font-size: 25px;
+  list-style: none;
+}
+
+section .container li a{
+  color: rgba(0, 0, 0, 0.5);
+
+}
+
+section .container li a span{
+  display: inline-block;
+  height: 25px;
+  border-left: solid 1px grey;
+  margin-right: 10px;
+}
+
+/* sezione innestata Deploy */
+.nesting-col h4, .nesting-col .img-deploy, .nesting-col p{
+  text-align: left;
+}
+
+.row .nesting-col p{
+  font-size: 20px;
 }
