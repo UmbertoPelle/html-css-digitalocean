@@ -212,3 +212,25 @@ section .container li a span{
 .item div img{
   margin: 30px 0;
 }
+
+.item div{
+  width: 60%;
+  margin-left: 20%;
+  max-height: 360px;
+}
+
+/* create account */
+.blue .white-button{
+  color: blue;
+  border: 0;
+  background-color: #fff;
+  font-size: 25px;
+  padding: 2%;
+}
+
+.blue .white-button:hover {
+  text-decoration: none;
+  background-color: lightblue;
+}
+
+/* footer */
