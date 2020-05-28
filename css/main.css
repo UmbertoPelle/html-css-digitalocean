@@ -50,7 +50,8 @@ nav .white-button{
 /* sezione jumbo */
 
 #jumbotron{
-  background-color: blue;
+  background-image: url("../img/jumbo.svg");
+  background-size: contain;
   margin-top: 60px;
   color: white;
 }
