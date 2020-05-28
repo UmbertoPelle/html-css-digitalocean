@@ -120,6 +120,13 @@ nav .white-button{
 }
 
 /*  sezione deploy */
+#deploy .row{
+  margin-top: 80px;
+}
+
+#deploy .row .row{
+  margin-top: 0;
+}
 
 section .container h3{
   font-size: 40px;
