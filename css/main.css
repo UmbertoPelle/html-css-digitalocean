@@ -19,7 +19,6 @@ section{
   padding: 20px 0;
 }
 
-
 /* header */
 /* nav */
 header .navbar-default{
@@ -142,6 +141,9 @@ header .navbar-brand img{
   color: rgba(0, 0, 0, 0.5);
 }
 
+#jumbotron .form-jumbo img {
+  width: 7%;
+}
 /* main */
 .grey{
   background-color: #f3f5f9
