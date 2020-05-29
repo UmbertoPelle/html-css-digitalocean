@@ -234,3 +234,36 @@ section .container li a span{
 }
 
 /* footer */
+
+footer{
+  background-color: hsl(220,95%,8%);
+  padding: 30px 0;
+  color: #fff;
+}
+
+footer div, footer p, footer h5, footer li{
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+footer p{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer div a{
+  margin-right: 2%;
+  color: #fff;
+}
+
+footer div a i{
+  font-size: 20px;
+}
+
+footer li{
+  list-style: none;
+}
+
+footer li a{
+  color: rgba(255, 255, 255, 0.5);
+
+}
