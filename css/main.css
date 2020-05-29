@@ -305,22 +305,3 @@ footer li{
 footer li a{
   color: rgba(255, 255, 255, 0.5);
 }
-
-/* modale */
-
-.btn.btn-info.btn-lg{
-  width: 100px;
-  height: 100px;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 998;
-}
-
-.btn img{
-  max-width: 100%;
-}
-
-.modal-content{
-  z-index: 999;
-}
