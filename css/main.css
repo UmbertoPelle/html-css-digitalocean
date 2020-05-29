@@ -22,33 +22,65 @@ section{
 
 /* header */
 /* nav */
-header nav {
+header .navbar-default{
+  border: 0;
+  background-color: #fff;
+}
+
+header .navbar{
+  margin-bottom: 0;
+  border-radius: 0;
   position: fixed;
   top: 0;
   left: 0;
-  height: 60px;
-  background-color: #fff;
   z-index: 100;
   width: 100%;
 }
 
-header nav img{
-  max-width:70%;
+header .navbar-brand{
+  width: 80%;
 }
 
-header nav li{
-  line-height: 60px;
-  display: inline-block;
-  padding-right: 10px;
+header .navbar-brand img{
+  max-height: 100%;
 }
 
-nav .white-button{
-  padding: 5px;
-}
 
-header nav .col-xs-2{
-  line-height: 60px;
-  text-align: right;
+@media (max-width: 1200px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in{
+    display:block !important;
+  }
 }
 
 /* sezione jumbo */
@@ -56,7 +88,7 @@ header nav .col-xs-2{
 #jumbotron{
   background-image: url("../img/jumbo.svg");
   background-size: contain;
-  margin-top: 60px;
+  margin-top: 50px;
   color: white;
 }
 
