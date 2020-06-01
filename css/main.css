@@ -65,6 +65,16 @@ header .nav.navbar-nav{
   margin-left: 10%;
 }
 
+header .dropdown-menu{
+  width: 340px;
+}
+
+header .dropdown-menu .colonna-ddmenu{
+  display: inline-block;
+  width: 49%;
+  padding: 0 1%;
+}
+
 
 @media (max-width: 1200px) {
   .navbar-header {
