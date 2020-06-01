@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+body *{
+  font-family: 'Lato', sans-serif;
+}
+
 .white-button{
   display: inline-block;
   background-color: #fff;
@@ -21,6 +25,15 @@ section{
 
 /* header */
 /* nav */
+
+header .navbar.navbar-default  li > a{
+  color: black;
+}
+
+header .navbar.navbar-default  li > a:hover{
+  color: lightblue;
+}
+
 header .navbar-default{
   border: 0;
   background-color: #fff;
@@ -42,6 +55,10 @@ header .navbar-brand{
 
 header .navbar-brand img{
   max-height: 100%;
+}
+
+header .nav.navbar-nav{
+  margin-left: 10%;
 }
 
 
