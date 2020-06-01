@@ -109,7 +109,8 @@ header .nav.navbar-nav{
 }
 
 #jumbotron h2{
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: 900;
 }
 
 #jumbotron p{
@@ -133,6 +134,7 @@ header .nav.navbar-nav{
 
 #jumbotron .form-jumbo h2{
   font-size: 30px;
+  font-weight: 400;
 }
 
 #jumbotron .form-jumbo h3{
