@@ -75,6 +75,10 @@ header .dropdown-menu .colonna-ddmenu{
   padding: 0 1%;
 }
 
+header .navbar.navbar-default li >.white-button:hover{
+  background-color: blue;
+  color: #fff;
+}
 
 @media (max-width: 1200px) {
   .navbar-header {
