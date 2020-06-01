@@ -322,3 +322,7 @@ footer li{
 footer li a{
   color: rgba(255, 255, 255, 0.5);
 }
+
+footer li a:hover{
+  text-decoration: none;
+}

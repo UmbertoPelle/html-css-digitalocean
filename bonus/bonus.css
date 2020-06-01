@@ -17,6 +17,10 @@
   z-index: 999;
 }
 
+.modal-header img{
+  max-width: 100%;
+}
+
 .modal-body{
   background-image: url("../img/jumbo.svg");
   background-size: cover;
