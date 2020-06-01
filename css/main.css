@@ -103,7 +103,7 @@ header .nav.navbar-nav{
 
 #jumbotron{
   background-image: url("../img/jumbo.svg");
-  background-size: contain;
+  background-size: cover;
   margin-top: 50px;
   color: white;
 }
